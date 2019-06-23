@@ -1,6 +1,9 @@
 from Modules.Partie_1 import *
 from NewPartie2 import *
 
+otello()
+
+'''
 #n=int(input("donne ton n : "))
 n=6
 plateau={}
@@ -9,12 +12,13 @@ plateau['cases']=creer_plateau(n)
 
 
 afficher_plateau(plateau)
-
+'''
 
 
 ###############################################################################
+#test :
 
-
+'''
 print('Test de la fonction indice_valide :')
 print(indice_valide(plateau, 1),"doit retourner True")
 print(indice_valide(plateau, 7),"doit retourner False")
@@ -101,3 +105,4 @@ afficher_plateau(plateau)
 print(fin_de_partie(plateau),'doit retourner True') # retourne True
 
 print(gagnant(plateau),'doit retourner 1') # retourne 1
+'''
